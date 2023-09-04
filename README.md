@@ -64,7 +64,7 @@ public class EmployeeViewModel
         if (dataGrid.SortColumnDescriptions.Count > 0)
             dataGrid.SortColumnDescriptions.Clear();
         else
-            Application.Current.MainPage.DisplayAlert("Warning","Column not sorted","Ok");
+            Application.Current.MainPage.DisplayAlert("Warning","Column is not sorted","Ok");
     }
 
     private void SortColumn(object sender)
