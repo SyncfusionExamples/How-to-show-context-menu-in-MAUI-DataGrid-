@@ -7,9 +7,7 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
-#if WINDOWS || MACCATALYST
         dataGrid.CellRightTapped += DataGrid_CellRightTapped;
-#endif
 
     }
 
